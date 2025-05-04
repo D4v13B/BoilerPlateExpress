@@ -1,0 +1,10 @@
+const path = require("path")
+
+module.exports = {
+  config: path.resolve("config.js"),
+  // "models-path": path.resolve("src", "infrastructure", "db", "models"),
+  "seeders-path": path.resolve("src", "infrastructure", "db", "seeders"),
+  "migrations-path": path.resolve("src", "infrastructure", "db", "migrations"),
+
+  // "generate-index": false // Evitar que sequelize-cli cree un index.js
+}
